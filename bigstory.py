@@ -38,7 +38,7 @@ if decision == "1":
         print("Invalid choice")
 elif decision == "2":
     print("You get killed by the mysterious person. He steal all your item.")
-elif decision == "P":
+elif decision.upper() == "P":
     print('''                                      \_/
                                     --(_)--
                                       / \
