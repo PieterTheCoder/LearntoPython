@@ -7,3 +7,5 @@ def l_name(text):
     return storage2
 
 print(l_name(f_name("dog")))
+print(l_name(f_name("cee")))
+
