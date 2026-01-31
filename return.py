@@ -1,10 +1,9 @@
 def f_name(text):
-    storage = text + text + text + text
-    return storage
+    return text + text + text + text
+
 
 def l_name(text):
-    storage2 = text + text + text + text
-    return storage2
+    return text + text + text + text
 
 print(l_name(f_name("dog")))
 print(l_name(f_name("cee")))
