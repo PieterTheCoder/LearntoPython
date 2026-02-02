@@ -31,11 +31,11 @@ if decision == "1":
         elif potion == "2":
             print("You get killed by the bandit that wanted your item. I think you should drink it?")
         else:
-            print("Invalid choice")
+            print("Game Over")
     elif choice == "2":
         print("You get hunted by the dungeon people. Why?\nBecause the mysterious person place the bounty on you.\nHe want your armor and the item you have, You survive the massacre but it won't last long...")
     else:
-        print("Invalid choice")
+        print("Game Over")
 elif decision == "2":
     print("You get killed by the mysterious person. He steal all your item.")
 elif decision.upper() == "P":
@@ -53,3 +53,5 @@ elif decision.upper() == "P":
                                    (_))    @_@__)
                                    ''``   @@_@___)''')
     print("You disobeyed the king's orders and lived a happy life because you worked in the devil's kingdom.")
+else:
+    print("Game Over")

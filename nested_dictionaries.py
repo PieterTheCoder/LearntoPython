@@ -17,4 +17,4 @@ travel_log = {
     "total_visits": 5
    },
 }
-print(travel_log["Germany"]["cities_visited"][2])
+print(travel_log["Germany"]["total_visits"])

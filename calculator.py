@@ -36,7 +36,7 @@ def calculator():
 """)
     n3 = float(input("What is the first number?  "))
     while Pilo:
-        operations1 = str(input("+\n-\n*\n/\n\Pick an operation:? "))
+        operations1 = str(input("+\n-\n*\n/\nPick an operation:? "))
         n4 = float(input("What is the second number?  "))
         operations2 = ""
         operations2 += operations1
