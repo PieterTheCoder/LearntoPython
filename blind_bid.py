@@ -13,6 +13,7 @@ logo = r'''
 '''
 print(logo)
 def highest_bidder(bidding_dictionary):
+"""find highest bidder and the highest bidder is the winner""""
     winner = ""
     total_bid = 0
     for bidder in bidding_dictionary:
