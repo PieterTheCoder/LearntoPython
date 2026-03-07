@@ -1,3 +1,4 @@
+# Create some ascii art
 print('''                   _.--.    
                  ."  ."      ".  ".
                 ;  ."    /\    ".  ;
@@ -17,9 +18,11 @@ print('''                   _.--.
 !     \  \  \   \                  /   /  /  /     !
 :      \  \  \   \                /   /  /  /      :
 ''')
+# Make the story and decision
 print("As a knight you get command from your king to explore dungeon.\nThe further you explore the dungeon you see mysterious person bargaining you think...")
 print("You are curious about that mysterious person but, you know the consequences.\nYou have two choice. But there is a secret ending if you type the first letter of my name.")
 decision = input("  1. Leave the mysterious person and continue your exploration.\n  2. Go to the mysterious person.\n    Type 1 or 2\n    ")
+# Create if, elif, else statement 
 if decision == "1":
     print("You get chased by the mysterious person offering you some potion. You feel kinda strange....")
     choice = input("  1. Take the offer.\n  2. Reject the offer.\n    Type 1 or 2\n    ")
@@ -38,6 +41,7 @@ if decision == "1":
         print("Game Over")
 elif decision == "2":
     print("You get killed by the mysterious person. He steal all your item.")
+# Secret Ending
 elif decision.upper() == "P":
     print('''                                      \_/
                                     --(_)--
