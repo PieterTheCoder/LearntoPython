@@ -10,5 +10,5 @@ def is_leap_year(year):
     else:
         return False
 
-is_leap_year(2100)
 # You can change the year to know what is the leap year.
+is_leap_year(2100)
