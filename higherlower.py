@@ -312,7 +312,7 @@ score = 0
 game = True
 
 
-# Make function to
+# Make function to tidy up the presentation of the account/to format the data account
 def format_data(account):
     account_name = account["name"]
     account_description = account[("description")]
@@ -320,7 +320,7 @@ def format_data(account):
     return f"{account_name}, a {account_description}, from {account_country}"
 
 
-# Make function to compare
+# Make function to compare the account
 def compare(user_a, followers_a, followers_b):
     if followers_a > followers_b:
         return user_a == "a"
@@ -328,10 +328,11 @@ def compare(user_a, followers_a, followers_b):
         return user_a == "b"
 
 
-# Make the first step
+# Make the frontend
 while game:
     option_a = option_b
     option_b = random.choice(data)
+    """To make the option a switch to option b"""
     if option_a == option_b:
         option_b = random.choice(data)
     print('''         _________ _______           _______  _______ 
