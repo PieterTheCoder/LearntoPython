@@ -1,15 +1,20 @@
 def add(n1, n2):
+"""Make function to add the number"""
     return n1 + n2
 
 def subtract(n1, n2):
+"""Make function to subtract the number"""
     return n1 - n2
 
 def multiply(n1, n2):
+"""Make function to multiply the number"""
     return n1 * n2
 
 def divide(n1, n2):
+"""Make function to divide the number"""
     return n1 / n2
 
+# Make the program understand what the user wants
 operations = {
     "+": add,
     "-": subtract,
