@@ -18,7 +18,7 @@ print('''                   _.--.
 !     \  \  \   \                  /   /  /  /     !
 :      \  \  \   \                /   /  /  /      :
 ''')
-# Make the story and decision
+# Make the story and Make the user choices
 print("As a knight you get command from your king to explore dungeon.\nThe further you explore the dungeon you see mysterious person bargaining you think...")
 print("You are curious about that mysterious person but, you know the consequences.\nYou have two choice. But there is a secret ending if you type the first letter of my name.")
 decision = input("  1. Leave the mysterious person and continue your exploration.\n  2. Go to the mysterious person.\n    Type 1 or 2\n    ")
