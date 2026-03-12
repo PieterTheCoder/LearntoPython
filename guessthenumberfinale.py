@@ -4,6 +4,7 @@ HARD = 5
 EASY = 10
 
 def compare(u_guess, c_guess, attempt):
+"""Make function to compare user guess and computer input"""
     if u_guess > c_guess:
         print("Too high")
         return attempt - 1
@@ -14,6 +15,7 @@ def compare(u_guess, c_guess, attempt):
         print("You guessed correctly")
 
 def choose_difficulty():
+"""Make function to set difficulty from the user want"""
     diff = input("Choose a difficulty level 'easy' or 'hard' \n").lower()
     if diff == "easy":
         return EASY
