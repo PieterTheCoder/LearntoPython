@@ -283,7 +283,7 @@ logo = r'''
                    |___/    '''
 
 
-lives = 6
+lives = 5
 
 print(logo)
 
